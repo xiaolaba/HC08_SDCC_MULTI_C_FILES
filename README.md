@@ -10,7 +10,8 @@ sdcc    -mhc08 --data-loc 0x80 --code-loc 0xEE00 --stack-loc 0xFF main.c sub1.re
 sdcc -mhc08 --data-loc 0x80 --code-loc 0xEE00 --stack-loc 0xFF -o main.s19 main.rel sub1.rel sub2.rel 
 
 ```
-
+  
+    
 
 ```
 
@@ -37,7 +38,8 @@ void main(void){
 //  } 
 }
 ```
-
+  
+    
 
 ```
 // xiaolaba, 2018-NOV-11
@@ -52,7 +54,8 @@ void sub1(){
   __endasm;
 }
 ```
-
+  
+    
 ```
 // xiaolaba, 2018-NOV-11
 // testing sdcc3.8.0
@@ -66,7 +69,8 @@ void sub2(){
   __endasm;
 }
 ```
-
+  
+    
 
 partial output of main.rst, no code detail of sub1 or sub2 could be seen, unless load & disassemble main.s19  
 actual code was there and good for excution.  
