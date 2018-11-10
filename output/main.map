@@ -1,0 +1,118 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  l_CABS                          
+C:   00000000  l_CODEIVT                       
+C:   00000000  l_CONST                         
+C:   00000000  l_DSEG                          
+C:   00000000  l_GSINIT                        
+C:   00000000  l_HOME                          
+C:   00000000  l_IABS                          
+C:   00000000  l_OSEG                          
+C:   00000000  l_XABS                          
+C:   00000000  l_XINIT                         
+C:   00000000  l_XISEG                         
+C:   00000000  l_XSEG                          
+C:   00000000  l__CODE                         
+C:   00000000  s_CABS                          
+C:   00000000  s_CODEIVT                       
+C:   00000000  s_CODEIVT0                      
+C:   00000000  s_IABS                          
+C:   00000000  s_XABS                          
+C:   00000000  s__CODE                         
+C:   00000002  l_CODEIVT0                      
+C:   00000003  l_GSFINAL                       
+C:   00000018  l_CSEG                          
+C:   0000001E  l_GSINIT0                       
+C:   00000080  s_DSEG                          
+C:   00000080  s_OSEG                          
+C:   00000080  s_XISEG                         
+C:   00000080  s_XSEG                          
+C:   0000EE00  s_GSINIT0                       
+C:   0000EE00  s_HOME                          
+C:   0000EE1E  s_GSFINAL                       
+C:   0000EE1E  s_GSINIT                        
+C:   0000EE21  s_CSEG                          
+C:   0000EE39  s_CONST                         
+C:   0000EE39  s_XINIT                         
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODEIVT0                            00000000    00000002 =           2. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           _startup
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT0                             0000EE00    0000001E =          30. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             0000EE1E    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000EE21    00000018 =          24. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000EE26  _main                              main
+C:   0000EE2F  _sub1                              sub1
+C:   0000EE33  _sub2                              sub2
+C:   0000EE37  __sdcc_external_startup            _startup
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+
+Files Linked                              [ module(s) ]
+
+main.rel                                  [ main ]
+sub1.rel                                  [ sub1 ]
+sub2.rel                                  [ sub2 ]
+
+
+Libraries Linked                          [ object file ]
+
+C:\Program Files\SDCC\bin\..\lib\hc08/hc08.lib
+                                          [ _startup.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+
+User Base Address Definitions
+
+HOME = 0xee00
+DSEG = 0x0080
+
+

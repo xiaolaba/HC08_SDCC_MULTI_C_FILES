@@ -1,0 +1,59 @@
+XH2
+H 11 areas 8 global symbols
+M main
+O -mhc08
+S __sdcc_external_startup Ref0000
+S s_XISEG Ref0000
+S l_XINIT Ref0000
+S _sub1 Ref0000
+S _sub2 Ref0000
+S s_XINIT Ref0000
+S .__.ABS. Def0000
+A _CODE size 0 flags 0 addr 0
+A HOME size 0 flags 20 addr 0
+A GSINIT0 size 1E flags 20 addr 0
+A GSINIT size 0 flags 20 addr 0
+A GSFINAL size 3 flags 20 addr 0
+A CSEG size E flags 20 addr 0
+S _main Def0005
+A XINIT size 0 flags 20 addr 0
+A CONST size 0 flags 20 addr 0
+A DSEG size 0 flags 10 addr 0
+A OSEG size 0 flags 14 addr 0
+A XSEG size 0 flags 0 addr 0
+A XISEG size 0 flags 0 addr 0
+A CODEIVT size 0 flags 8 addr 0
+A CODEIVT0 size 2 flags 8 addr FFFE
+A IABS size 0 flags 8 addr 0
+A XABS size 0 flags 8 addr 0
+A CABS size 0 flags 28 addr 0
+T FF FE
+R 00 00 00 0D
+T FF FE 00 00
+R 00 00 00 0D 00 02 00 02
+T 00 00
+R 00 00 00 02
+T 00 00 45 01 00 94 CD 00 00 27 03 CC 00 00
+R 00 00 00 02 02 07 00 00 00 0C 00 05
+T 00 0C
+R 00 00 00 02
+T 00 0C 45 00 00
+R 00 00 00 02
+T 00 0F
+R 00 00 00 02
+T 00 0F 65 00 00 27 0A D6 00 00 D7 00 00 AF 01 20
+R 00 00 00 02 02 03 00 02 02 08 00 05 02 0B 00 01
+T 00 1D F1
+R 00 00 00 02
+T 00 1E
+R 00 00 00 02
+T 00 00 CC 00 00
+R 00 00 00 04 00 03 00 05
+T 00 00
+R 00 00 00 05
+T 00 00 CD 00 05 20 FE
+R 00 00 00 05 00 03 00 05
+T 00 05
+R 00 00 00 05
+T 00 05 A6 FF 9D CD 00 00 CC 00 00
+R 00 00 00 05 02 06 00 03 02 09 00 04
